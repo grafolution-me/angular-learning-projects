@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f7c785c0-1686-4830-8701-686621494711" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/app/account/account.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/app/account/account.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/app/account/account.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/app/account/account.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/app/logging.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/app/new-account/new-account.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/app/new-account/new-account.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/app/new-account/new-account.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/app/new-account/new-account.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/src/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-dependencyinjection/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1TDTQw9MIt9dWYouTXh83bN0fJG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../angular-dependencyinjection" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="E2E Tests (project-test)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7c785c0-1686-4830-8701-686621494711" name="Default Changelist" comment="" />
+      <created>1572993653639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572993653639</updated>
+      <workItem from="1572993654771" duration="24000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
