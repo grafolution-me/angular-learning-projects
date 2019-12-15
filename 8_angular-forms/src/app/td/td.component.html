@@ -1,0 +1,93 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+      <form (ngSubmit)="onSubmit()" #form="ngForm" >
+
+        <div id="user-data"
+             ngModelGroup="userData"
+              #userData="ngModelGroup">
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              id="username"
+              class="form-control"
+              ngModel
+              name="username"
+              required>
+          </div>
+          <button
+            class="btn btn-default"
+            type="button"
+            (click)="suggestUserName()">Suggest an Username</button>
+          <div class="form-group">
+            <label for="email">Mail</label>
+            <input
+              type="email"
+              id="email"
+              class="form-control"
+              ngModel
+              name="email"
+              required
+              email
+              #email="ngModel">
+            <span *ngIf="!email.valid"><p class="bg-warning">Please enter a valid E-Mail</p></span>
+
+          </div>
+        </div>
+
+        <span *ngIf="!userData.valid && userData.touched"><p class="bg-warning">User Data is invalid</p></span>
+        <div class="form-group">
+          <label for="secret">Secret Questions</label>
+          <select
+            id="secret"
+            class="form-control"
+          ngModel
+          name="secretQuestion">
+            <option value="pet">Your first Pet?</option>
+            <option value="teacher">Your first teacher?</option>
+          </select>
+        </div>
+
+          <div class="form-group">
+            <div style="display: flex; flex-direction: column ">
+              <label for="qa">Q&A</label>
+              <small id="helpId" class="text-muted">Please enter the correct answer to the question above.</small>
+              <textarea name="qa" id="qa" cols="30" rows="5" [(ngModel)]="answer"></textarea>
+            </div>
+            <p>Your reply: {{answer}}</p>
+          </div>
+          <div class="form-check"*ngFor="let gender of genders">
+            <label class="form-check-label" >
+              <input
+                type="radio"
+                class="form-check-input"
+                name="gender"
+                value="checkedValue"
+                ngModel
+                [defaultValue]="gender">
+              {{gender}}
+            </label>
+          </div>
+
+          <button
+            class="btn btn-primary"
+            type="submit"
+            [disabled]="!form.valid">Submit</button>
+
+
+      </form>
+      <hr>
+      <div class="row" *ngIf="isSubmitted">
+        <div class="col-xs-12">
+          <h3>Your Data </h3>
+          <p>Username: {{user.username}}</p>
+          <p>Mail: {{user.email}}</p>
+          <p>Secret Question: {{user.secretQuestion}}</p>
+          <p>Answer: {{user.answer}}</p>
+          <p>Gender: {{user.gender}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
