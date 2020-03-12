@@ -2,32 +2,188 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fddb27e2-365c-4547-a719-bb0356ab247b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/active-users/active-users.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/active-users/active-users.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/active-users/active-users.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/counter.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/inactive-users/inactive-users.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/inactive-users/inactive-users.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/inactive-users/inactive-users.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/user.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/browserslist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_angular_http/angular-http/src/app/auth-interceptor.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_angular_http/angular-http/src/app/post.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_angular_http/angular-http/src/app/posts.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practise-pipes/angular-practise-pipes/angular-practise-pipes/src/app/UpperCaseLetterEX.pipe.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/.idea/practise.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/app/app.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/app/databinding/databinding.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/app/databinding/databinding.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/app/databinding/databinding.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/app/databinding/databinding.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/app/practicing-directive/practicing-directive.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/app/practicing-directive/practicing-directive.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/app/practicing-directive/practicing-directive.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/app/practicing-directive/practicing-directive.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/app/success/success.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/app/success/success.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/app/success/success.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/app/warning/warning.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/app/warning/warning.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_practise-binding-styles/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/.idea/angular-binding-start.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/src/app/cockpit/cockpit.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/src/app/cockpit/cockpit.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/src/app/cockpit/cockpit.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/src/app/reactive-directive.directive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/src/app/server-element/server-element.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/src/app/server-element/server-element.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/src/app/server-element/server-element.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/src/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_angular-binding-start/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/.idea/angular-directives.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/src/app/app.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/src/app/directives/reactive-directive.directive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/src/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_angular-directives/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/app/account/account.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/app/account/account.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/app/account/account.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/app/accounts.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/app/logging.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/app/new-account/new-account.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/app/new-account/new-account.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/app/new-account/new-account.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/src/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_angular-dependencyinjection/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_angular-forms/src/app/rd-practise/custum-validators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../8_angular-forms/src/app/rd-practise/custum-validators.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_angular-forms/src/app/td-practise/td-practise.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../8_angular-forms/src/app/td-practise/td-practise.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_angular-forms/src/app/td-practise/td-practise.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../8_angular-forms/src/app/td-practise/td-practise.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_angular-forms/src/app/td/td.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../8_angular-forms/src/app/td/td.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_angular-forms/src/app/td/td.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../8_angular-forms/src/app/td/td.component.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +192,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1TFZMvqUGgax3e7E52hAYGVZPnY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -45,6 +201,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -52,7 +209,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
-    <property name="ts.external.directory.path" value="C:\Users\graff\Documents\Angular\angular-services\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\graff\Documents\angular\learning-projects\5_angular-services\node_modules\typescript\lib" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -106,6 +263,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573057760160</updated>
       <workItem from="1573057763785" duration="4536000" />
+      <workItem from="1581245732483" duration="758000" />
     </task>
     <servers />
   </component>
@@ -117,7 +275,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

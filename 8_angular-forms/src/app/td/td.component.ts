@@ -3,10 +3,10 @@ import {NgForm} from '@angular/forms';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './td.component.html',
+  styleUrls: ['./td.component.css']
 })
-export class AppComponent {
+export class TdComponent {
   @ViewChild('form', {static: true}) form: NgForm;
   private answer;
   private genders = ['male', 'female'];
@@ -22,8 +22,10 @@ export class AppComponent {
     const suggestedName = 'NewName';
     this.form.form.patchValue({
       userData: {
+        email: 'Test',
         username: suggestedName,
-      }
+      },
+      secretQuestion: 'pet'
     });
   }
   // onSubmit(formElement: NgForm) {
