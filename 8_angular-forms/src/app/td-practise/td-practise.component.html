@@ -1,1 +1,62 @@
-<p>td-practise works!</p>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-sm-8 col-md-10 offset-sm-2  offset-md-1">
+      <form (ngSubmit)="submit()"  #form="ngForm">
+
+        <div class="form-group">
+          <label for="email">E-Mail</label>
+          <input
+            type="text"
+            id="email"
+            #mail="ngModel"
+            class="form-control"
+            ngModel
+            name="email"
+            required>
+          <span *ngIf="!mail.valid && mail.touched"><p>Geben Sie bitte eine gültige E-Mail ein!</p></span>
+        </div>
+        <div class="form-group">
+          <label for="subscription">Subsrciption</label>
+          <select
+              class="form-control"
+              id="subscription"
+              name="subscription"
+              ngModel
+              #subsription="ngModel">
+              <option value="basic">Basic</option>
+              <option value="advanced">Advanced</option>
+              <option value="pro">Pro</option>
+            </select>
+        </div>
+
+       <div class="form-group">
+         <label for="password">Password</label>
+         <input
+                class="form-control"
+                type="text"
+                id="password"
+                #password="ngModel"
+                ngModel
+                name="password"
+                required>
+         <span *ngIf="!password.valid && password.touched"><p>Geben Sie bitte eine gültiges Passwort ein!</p></span>
+       </div>
+        <button
+          class="btn btn-primary"
+          type="submit"
+          [disabled]="!form.valid">Submit</button>
+        <span *ngIf="!form.valid && form.touched"><p>Geben Sie bitte gültige Werte ein!</p> </span>
+      </form>
+      <div *ngIf="isSubmitted">
+        <p>{{formData.email}}</p>
+        <p>{{formData.password}}</p>
+        <p>{{formData.subscription}}</p>
+
+      </div>
+
+
+    </div>
+
+
+  </div>
+</div>
